@@ -1,4 +1,4 @@
-# Python-Essentials-1
+# Python
 Python – the language of today and tomorrow
 
 # Python Essentials 1 – Notes & Practice
