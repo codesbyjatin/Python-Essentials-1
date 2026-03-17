@@ -160,3 +160,75 @@ def show():
     print("Local:", y)
     print("Global:", x)
 show()
+
+
+#Python Operators in Python
+
+'''Operators are symbols used to perform operations on values.
+
+1️⃣ Arithmetic Operators
+Operator	Meaning	     Example
++	        Addition	 5 + 2 = 7
+-	       Subtraction	 5 - 2 = 3
+*	     Multiplication	 5 * 2 = 10
+/	       Division	     5 / 2 = 2.5
+//  	Floor division	 5 // 2 = 2
+%	       Modulus	     5 % 2 = 1
+**	        Power	     2 ** 3 = 8
+
+2️⃣ Assignment Operators
+Operator	Example
+=	        x = 5
++=	        x += 2
+-=	        x -= 2
+*=	        x *= 2
+/=	        x /= 2
+%=	        x %= 2
+//=	        x //= 2
+**=	        x **= 2
+
+3️⃣ Comparison Operators
+Operator	Meaning	          Example
+==	        Equal	          x == y
+!=	        Not equal         x != y
+>	        Greater than	  x > y
+<	        Less than	      x < y
+>=	        Greater or equal  x >= y
+<=	        Less or equal	  x <= y
+
+4️⃣ Logical Operators
+Operator	Meaning	    Example
+and	        Both true	x > 1 and y > 1
+or	        One true	x > 1 or y > 1
+not	        Opposite	not(x > 1)
+
+5️⃣ Identity Operators
+Operator	Meaning	     Example
+is	        Same object	 x is y
+is not	    Not same	 x is not y
+
+6️⃣ Membership Operators
+Operator	Meaning	                Example
+in	        Present in sequence	    'a' in "apple"
+not in	    Not present	            'b' not in "apple"
+
+7️⃣ Bitwise Operators
+Operator	Meaning	                Example
+&	        AND	                    5 & 3
+|	        OR	                    5 | 3
+^	        XOR	                    5 ^ 3
+~	        NOT	                    ~5
+<<	        Left shift	            5 << 1
+>>	        Right shift	            5 >> 1
+'''
+
+# Shortcut operators
+'''
+| Expression                | Shortcut operator      |
+| ------------------------- | ---------------------- |
+|  i = i + 2 * j            |  i += 2 * j            |
+|  var = var / 2            |  var /= 2              |
+|  rem = rem % 10           |  rem %= 10             |
+|  j = j - (i + var + rem)  |  j -= (i + var + rem)  |
+|  x = x ** 2               |  x **= 2               |
+'''
